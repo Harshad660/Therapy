@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 
 const Doctor = () => {
@@ -36,7 +35,7 @@ const Doctor = () => {
             </h2>
 
             <p className="text-gray-600 text-lg mb-6 leading-relaxed">
-              Our lead specialist brings years of dedicated experience in pediatric rehabilitation and development. With a deep understanding of child psychology and physical therapy, we ensure that every child receives the highest standard of care tailored to their unique journey.
+              Our lead specialist brings years of dedicated experience in pediatric rehabilitation and development. With a deep understanding of child psychology and occupational  therapy, we ensure that every child receives the highest standard of care tailored to their unique journey.
             </p>
 
             <p className="text-gray-600 text-lg mb-6 leading-relaxed">

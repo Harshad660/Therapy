@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Activity, MessageCircle, Eye, BrainCircuit, BookOpen, Users } from 'lucide-react';
 
@@ -33,7 +32,7 @@ const services = [
   },
   {
     title: 'Special Education',
-    description: 'Tailored educational support to match individual learning styles.',
+    description: 'Inclusive educational support by pre primary teachers and day care center for children with special needs.',
     icon: <BookOpen size={32} />,
     color: 'bg-pink-100 text-pink-600',
     borderColor: 'hover:border-pink-300'

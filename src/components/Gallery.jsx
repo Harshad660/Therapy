@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 
 const Gallery = () => {
@@ -6,6 +5,26 @@ const Gallery = () => {
     { src: '/assets/gallery_play.png', alt: 'Child playing' },
     { src: '/assets/gallery_teach.png', alt: 'Therapist teaching' },
     { src: '/assets/gallery_exercise.png', alt: 'Physical exercises' },
+    { src: '/assets/1.jpeg', alt: 'Therapist teaching' },
+    { src: '/assets/2.jpeg', alt: 'Physical exercises' },
+    { src: '/assets/3.jpeg', alt: 'Physical exercises' },
+    { src: '/assets/4.jpeg', alt: 'Physical exercises' },
+    { src: '/assets/5.jpeg', alt: 'Therapist teaching' },
+    { src: '/assets/7.jpeg', alt: 'Physical exercises' },
+    { src: '/assets/8.jpeg', alt: 'Physical exercises' },
+    { src: '/assets/9.jpeg', alt: 'Physical exercises' },
+    { src: '/assets/10.jpeg', alt: 'Physical exercises' },
+    { src: '/assets/11.jpeg', alt: 'Physical exercises' },
+    { src: '/assets/13.jpeg', alt: 'Physical exercises' }, 
+    { src: '/assets/14.jpeg', alt: 'Physical exercises' },
+
+ 
+
+
+    
+   
+    
+
   ];
 
   return (
