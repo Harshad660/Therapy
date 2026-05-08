@@ -37,23 +37,24 @@ const Gallery = () => {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {images.map((img, index) => (
             <motion.div
               key={index}
-              initial={{ opacity: 0, scale: 0.9 }}
-              whileInView={{ opacity: 1, scale: 1 }}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.2 }}
-              className="group relative rounded-3xl overflow-hidden shadow-lg h-72 cursor-pointer"
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+              className="group relative rounded-[2rem] overflow-hidden shadow-xl aspect-[4/5] sm:aspect-square md:aspect-[4/5] cursor-pointer"
             >
               <img 
                 src={img.src} 
                 alt={img.alt} 
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-110"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                <h3 className="text-white font-bold text-xl">{img.alt}</h3>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8">
+                <h3 className="text-white font-bold text-2xl transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">{img.alt}</h3>
+                <p className="text-gray-200 text-sm mt-2 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500 delay-75">Click to view in full size</p>
               </div>
             </motion.div>
           ))}
