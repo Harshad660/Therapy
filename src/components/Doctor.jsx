@@ -13,12 +13,13 @@ const Doctor = () => {
             transition={{ duration: 0.7 }}
             className="flex-1 w-full max-w-md mx-auto md:max-w-none"
           >
-            <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
+            <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white group">
               <img
                 src="/assets/doctor.jpg"
                 alt="Lead Doctor"
-                className="w-full h-auto object-cover"
+                className="w-full h-auto object-cover scale-105 saturate-[1.4]"
               />
+              {/* No overlays - show image only */}
             </div>
           </motion.div>
 

@@ -26,8 +26,12 @@ const Navbar = () => {
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-2 cursor-pointer">
-            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-400 via-green-400 to-purple-400 flex items-center justify-center text-white font-bold text-xl shadow-lg">
-              P
+            <div className="w-12 h-12 rounded-full overflow-hidden shadow-lg border-2 border-primary-100 flex items-center justify-center bg-white">
+              <img 
+                src="/assets/symbol.jpg" 
+                alt="PRISM Logo" 
+                className="w-full h-full object-contain"
+              />
             </div>
             <div>
               <h1 className="font-bold text-xl leading-tight text-gray-800">PRISM</h1>

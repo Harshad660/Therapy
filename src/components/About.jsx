@@ -15,11 +15,14 @@ const About = () => {
             className="flex-1 w-full"
           >
             <div className="relative">
-              <img 
-                src="/assets/about_therapy.png" 
-                alt="Therapist with a child" 
-                className="w-full rounded-2xl shadow-xl object-cover"
-              />
+              <div className="relative rounded-2xl overflow-hidden shadow-xl group">
+                <img 
+                  src="/assets/about_therapy.png" 
+                  alt="Therapist with a child" 
+                  className="w-full object-cover saturate-[1.5] contrast-[1.05]"
+                />
+                {/* No overlays - show image only */}
+              </div>
               <div className="absolute -bottom-8 -right-8 bg-white p-4 rounded-2xl shadow-xl flex items-center gap-4 border border-gray-100 hidden sm:flex">
                 <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center text-green-600">
                   <Award size={24} />

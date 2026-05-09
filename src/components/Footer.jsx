@@ -8,8 +8,12 @@ const Footer = () => {
           
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-full bg-gradient-to-br from-blue-400 via-green-400 to-purple-400 flex items-center justify-center text-white font-bold text-sm shadow-lg">
-                P
+              <div className="w-10 h-10 rounded-full overflow-hidden shadow-lg border border-gray-700 flex items-center justify-center bg-white p-1">
+                <img 
+                  src="/assets/symbol.jpg" 
+                  alt="PRISM Logo" 
+                  className="w-full h-full object-contain"
+                />
               </div>
               <h2 className="font-bold text-2xl text-white">PRISM Center</h2>
             </div>

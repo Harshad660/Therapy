@@ -48,7 +48,7 @@ const Hero = () => {
           >
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
               <img
-                src="/assets/symbol.jpg"
+                src="/assets/WhatsApp Image 2026-05-07 at 10.09.16 PM.jpeg"
                 alt="PRISM Center"
                 className="w-full h-auto object-cover"
               />
