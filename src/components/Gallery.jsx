@@ -67,14 +67,14 @@ const Gallery = () => {
                   className="w-full h-full object-cover object-center transition-all duration-1000 group-hover:scale-110 saturate-[1.6] contrast-[1.1] brightness-[1.05]"
                 />
                 
-                {/* Localized Face Blur Overlay */}
-                <div className="absolute top-[10%] left-1/2 -translate-x-1/2 w-[60%] h-[55%] rounded-[3rem] backdrop-blur-[30px] bg-white/5 border border-white/10 z-10"></div>
-
-                {/* Privacy Eye Rectangles */}
-                <div className="absolute top-[35%] left-1/2 -translate-x-1/2 flex gap-4 z-20">
-                  <div className="w-8 h-3 bg-white/90 shadow-sm rounded-sm"></div>
-                  <div className="w-8 h-3 bg-white/90 shadow-sm rounded-sm"></div>
-                </div>
+                {/* Premium Feathered Radial Face Blur Overlay */}
+                <div 
+                  className="absolute top-[8%] left-1/2 -translate-x-1/2 w-[60%] h-[55%] rounded-full backdrop-blur-[28px] pointer-events-none z-10"
+                  style={{
+                    WebkitMaskImage: 'radial-gradient(circle, rgba(0,0,0,1) 35%, rgba(0,0,0,0) 80%)',
+                    maskImage: 'radial-gradient(circle, rgba(0,0,0,1) 35%, rgba(0,0,0,0) 80%)'
+                  }}
+                />
 
                 <div className="absolute inset-0 bg-black/5 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity z-30">
                    <span className="text-white text-xs font-bold uppercase tracking-widest bg-black/20 px-3 py-1 rounded-full backdrop-blur-sm">Privacy Protected</span>
