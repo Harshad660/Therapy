@@ -15,15 +15,15 @@ const Gallery = () => {
     { src: '/assets/9.jpeg', alt: 'Physical exercises' },
     { src: '/assets/10.jpeg', alt: 'Physical exercises' },
     { src: '/assets/11.jpeg', alt: 'Physical exercises' },
-    { src: '/assets/13.jpeg', alt: 'Physical exercises' }, 
+    { src: '/assets/13.jpeg', alt: 'Physical exercises' },
     { src: '/assets/14.jpeg', alt: 'Physical exercises' },
 
- 
 
 
-    
-   
-    
+
+
+
+
 
   ];
 
@@ -61,15 +61,15 @@ const Gallery = () => {
               className="group relative rounded-[2rem] overflow-hidden shadow-xl aspect-[4/5] sm:aspect-square md:aspect-[4/5] cursor-pointer"
             >
               <div className="relative w-full h-full overflow-hidden group">
-                <img 
-                  src={img.src} 
-                  alt={img.alt} 
+                <img
+                  src={img.src}
+                  alt={img.alt}
                   className="w-full h-full object-cover object-center transition-all duration-1000 group-hover:scale-110 saturate-[1.6] contrast-[1.1] brightness-[1.05]"
                 />
-                
+
                 {/* Premium Feathered Radial Face Blur Overlay */}
-                <div 
-                  className="absolute top-[8%] left-1/2 -translate-x-1/2 w-[60%] h-[55%] rounded-full backdrop-blur-[28px] pointer-events-none z-10"
+                <div
+                  className="absolute top-[8%] left-1/2 -translate-x-1/2 w-[60%] h-[66%] rounded-full backdrop-blur-[38px] pointer-events-none z-10"
                   style={{
                     WebkitMaskImage: 'radial-gradient(circle, rgba(0,0,0,1) 35%, rgba(0,0,0,0) 80%)',
                     maskImage: 'radial-gradient(circle, rgba(0,0,0,1) 35%, rgba(0,0,0,0) 80%)'
@@ -77,7 +77,7 @@ const Gallery = () => {
                 />
 
                 <div className="absolute inset-0 bg-black/5 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity z-30">
-                   <span className="text-white text-xs font-bold uppercase tracking-widest bg-black/20 px-3 py-1 rounded-full backdrop-blur-sm">Privacy Protected</span>
+                  <span className="text-white text-xs font-bold uppercase tracking-widest bg-black/20 px-3 py-1 rounded-full backdrop-blur-sm">Privacy Protected</span>
                 </div>
               </div>
             </motion.div>
