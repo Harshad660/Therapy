@@ -14,9 +14,8 @@ const Gallery = () => {
     { src: '/assets/8.jpeg', alt: 'Physical exercises' },
     { src: '/assets/9.jpeg', alt: 'Physical exercises' },
     { src: '/assets/10.jpeg', alt: 'Physical exercises' },
-    { src: '/assets/11.jpeg', alt: 'Physical exercises' },
     { src: '/assets/13.jpeg', alt: 'Physical exercises' },
-    { src: '/assets/14.jpeg', alt: 'Physical exercises' },
+  
 
 
 
@@ -69,7 +68,7 @@ const Gallery = () => {
 
                 {/* Premium Feathered Radial Face Blur Overlay */}
                 <div
-                  className="absolute top-[8%] left-1/2 -translate-x-1/2 w-[60%] h-[66%] rounded-full backdrop-blur-[38px] pointer-events-none z-10"
+                  className="absolute inset-0 pointer-events-none z-10"
                   style={{
                     WebkitMaskImage: 'radial-gradient(circle, rgba(0,0,0,1) 35%, rgba(0,0,0,0) 80%)',
                     maskImage: 'radial-gradient(circle, rgba(0,0,0,1) 35%, rgba(0,0,0,0) 80%)'
